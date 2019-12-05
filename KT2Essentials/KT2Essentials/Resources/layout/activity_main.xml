@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+     <TextView
+        android:text="AKU INFORMATSIOON"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:minWidth="25px"
+        android:minHeight="150px"
+        android:id="@+id/batt_info_text"
+        android:textStyle="bold" />
+     <Button
+        android:text="VAJUTA, ET NÄHA!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/batt_info_text"
+        android:minWidth="25px"
+        android:minHeight="100px"
+        android:id="@+id/battery_info" />
+     <TextView
+        android:text="TASKULAMP"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/battery_info"
+        android:gravity="center"
+        android:minWidth="25px"
+        android:minHeight="150px"
+        android:id="@+id/flash_info_text"
+        android:textStyle="bold" />
+    <ToggleButton
+        android:text="Flashlight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flash_info_text"
+        android:id="@+id/flash_on_off" />
+    <TextView
+        android:text="PROOVI KIIRENDUSANDURIT KA!"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/flash_on_off"
+        android:gravity="center"
+        android:minWidth="25px"
+        android:minHeight="150px"
+        android:id="@+id/acc_meter_text"
+        android:textStyle="bold" />
+     <Button
+        android:text="LÜLITA SISSE!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/acc_meter_text"
+        android:minWidth="25px"
+        android:minHeight="100px"
+        android:id="@+id/acc_button_on" />
+     <Button
+        android:text="LÜLITA VÄLJA!"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/acc_button_on"
+        android:minWidth="25px"
+        android:minHeight="100px"
+        android:id="@+id/acc_button_off" />
+
+
+</RelativeLayout>
